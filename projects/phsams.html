@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Present Hoon Sir — Tech Stack | Sahas Maruti Gawade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/project-detail.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <a class="back-link" href="../index.html#projects">← Back to Portfolio</a>
+
+        <div class="proj-eyebrow">Project 02</div>
+        <h1 class="proj-title">Present Hoon Sir — <span class="grad-text">Attendance Management System</span></h1>
+        <div class="proj-meta">Jun – Jul 2026 · In production at ADYPU</div>
+
+        <div class="proj-screenshot">
+            <img src="../images/screenshots/phsams/admin-dashboard.png"
+                alt="Present Hoon Sir admin dashboard screenshot">
+        </div>
+
+        <div class="proj-desc">
+            <p>A full-stack, multi-batch attendance system with role-based access for Super Admin, Admin, Faculty and
+                Student.</p>
+            <ul>
+                <li>QR-based attendance with a variable validity window, one-response-per-device enforcement, and Wi-Fi
+                    authentication to prevent proxy marking.</li>
+                <li>Automated email alerts to parents on absences, with exportable PDF/Excel reports.</li>
+                <li>JWT-based auth with CSRF protection and rate limiting across all portals.</li>
+            </ul>
+        </div>
+
+        <div class="section-label">Tech Stack</div>
+
+        <div class="stack-group glass">
+            <div class="stack-group-title">Frontend</div>
+            <div class="stack-badges">
+                <span class="stack-badge">React 18</span>
+                <span class="stack-badge">Vite</span>
+                <span class="stack-badge">Tailwind CSS</span>
+                <span class="stack-badge">React Router DOM</span>
+            </div>
+        </div>
+
+        <div class="stack-group glass">
+            <div class="stack-group-title">Backend</div>
+            <div class="stack-badges">
+                <span class="stack-badge teal">Node.js</span>
+                <span class="stack-badge teal">Express.js</span>
+                <span class="stack-badge teal">PostgreSQL</span>
+                <span class="stack-badge teal">JWT + bcrypt</span>
+                <span class="stack-badge teal">CSRF protection</span>
+                <span class="stack-badge teal">Rate limiting</span>
+            </div>
+        </div>
+
+        <div class="stack-group glass">
+            <div class="stack-group-title">Integrations & Reports</div>
+            <div class="stack-badges">
+                <span class="stack-badge coral">QR Code generation</span>
+                <span class="stack-badge coral">jsPDF / jsPDF-AutoTable</span>
+                <span class="stack-badge coral">xlsx (Excel export)</span>
+                <span class="stack-badge coral">EmailJS</span>
+                <span class="stack-badge coral">Google APIs</span>
+                <span class="stack-badge coral">Render (Deployment)</span>
+            </div>
+        </div>
+
+        <div class="proj-links">
+            <a class="pill-link cta" href="http://present-hoon-sir-dfhv.onrender.com" target="_blank"
+                rel="noopener">View Live Demo ↗</a>
+            <a class="pill-link" href="../index.html#projects">Back to Projects</a>
+        </div>
+    </div>
+</body>
+
+</html>
